@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2253A9594AA3DB5F07470A02B4078C21 /* Pods-SGUIImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6230E87260110DB0AB3706B1D84A650C /* Pods-SGUIImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E06DB9DC40AA61E06EE0666EE37C6D /* Pods-SGUIImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB83B9C5A09C0886F74494143CD39DCD /* Pods-SGUIImageExtension_Example-dummy.m */; };
+		60F341CD1AC1A2F4B73217AB4BCCF3C8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */; };
+		6CBF3BF7659CAF95B8B360615966390E /* Pods-SGUIImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA374B9794DAB9164B5855CFD3F160D /* Pods-SGUIImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703F95E3320CF43496A28D6CF989CB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		78C21F9BF7EF0BC1A8537244A1C0E3E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C8EE9F6C0AE12D43DD5CACD3E78C1F89 /* Pods-SGUIImageExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD91D0EDFE96AA9230FF46FABBCFD63 /* Pods-SGUIImageExtension_Tests-dummy.m */; };
+		DE17599347B5449BE8AC0B3C08E8EA25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E513B96434DC8A038F2D69E4A4ECEA46 /* SGUIImageExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF230D4F27AFB389C80624493FF25DD /* SGUIImageExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAC943DBDAFFE109B1D6125C8F6259D3 /* SGUIImageExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A1F70439B14B3C97BE0D882C3EFB43 /* SGUIImageExtension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D75C01339B6A64429F13F238DFDA865 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DC255B98C10D7CFE12150CE0146C6C;
+			remoteInfo = "Pods-SGUIImageExtension_Example";
+		};
+		B40142132E18D0B0C129669936A991C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E627F8844832D17371322C72E75F786;
+			remoteInfo = SGUIImageExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04483AE83973CBCF65BAA309B9FC40AD /* SGUIImageExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SGUIImageExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07019AEE69C8A237217E120E6168250B /* Pods_SGUIImageExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGUIImageExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D4AD5C1ECD801C8489E979C09857F1 /* Pods-SGUIImageExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGUIImageExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		14415992F005FBADA3B35DB1EC8A8184 /* Pods-SGUIImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGUIImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1657C8BDFE2E3C0E39FE3E7BC096A7E8 /* Pods_SGUIImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGUIImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE1C62A04ECE9236414B7B7755E6AAB /* Pods-SGUIImageExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGUIImageExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D5FA4038D730699BB6DC76530DD9668 /* Pods-SGUIImageExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGUIImageExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		21A757763DEE4DFC0C2591037E27396A /* Pods-SGUIImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGUIImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA374B9794DAB9164B5855CFD3F160D /* Pods-SGUIImageExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGUIImageExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		3AF230D4F27AFB389C80624493FF25DD /* SGUIImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGUIImageExtension-umbrella.h"; sourceTree = "<group>"; };
+		3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SGUIImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5AA723B31F093BD0E33781FD91560100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6230E87260110DB0AB3706B1D84A650C /* Pods-SGUIImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGUIImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63DA6B6E51DBADD60FB70E95A3D3B5F1 /* SGUIImageExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGUIImageExtension-Info.plist"; sourceTree = "<group>"; };
+		67C0F841E08598978BA9B81D835DC8C3 /* Pods-SGUIImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGUIImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		681FDE80428606D8FFACF3215D8F8B39 /* SGUIImageExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGUIImageExtension-prefix.pch"; sourceTree = "<group>"; };
+		7005CEAF15A256AAC525175F39B9650C /* SGUIImageExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGUIImageExtension.debug.xcconfig; sourceTree = "<group>"; };
+		72DED95EC7124303D969B1BA7BD832E7 /* Pods-SGUIImageExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SGUIImageExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AD91D0EDFE96AA9230FF46FABBCFD63 /* Pods-SGUIImageExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGUIImageExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		827F091D7259A0A8C7B94079FC55BC93 /* Pods-SGUIImageExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SGUIImageExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		889BBC5519746AC8ECB2EDDA57BD4A64 /* Pods-SGUIImageExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGUIImageExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C9099BEA6E617308EBF85568319BFF8 /* Pods-SGUIImageExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGUIImageExtension_Example-Info.plist"; sourceTree = "<group>"; };
+		8DB538C12DFD8423750762D176EC280C /* Pods-SGUIImageExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGUIImageExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		96A1F70439B14B3C97BE0D882C3EFB43 /* SGUIImageExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SGUIImageExtension-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6111D5DBF633683399C1498EC5A3F77 /* SGUIImageExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SGUIImageExtension.modulemap; sourceTree = "<group>"; };
+		B2EB3DB0ACD2BD167E3C17E3AEEE66E7 /* SGUIImageExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SGUIImageExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFBCEDBD93B23A333AA49BEB1269D697 /* SGUIImageExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SGUIImageExtension.release.xcconfig; sourceTree = "<group>"; };
+		DFB865B8721D451C1C20889E8697BF97 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F013F506E40A6398F92AD5CDBE23B153 /* Pods-SGUIImageExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SGUIImageExtension_Example.modulemap"; sourceTree = "<group>"; };
+		F9BE39E9C480690EDD05311AFF145BEA /* Pods-SGUIImageExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SGUIImageExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB83B9C5A09C0886F74494143CD39DCD /* Pods-SGUIImageExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SGUIImageExtension_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32DB0E18495544B72008ACBE6C023A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE17599347B5449BE8AC0B3C08E8EA25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42833EA15ADE21B7251D4A363E876C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C21F9BF7EF0BC1A8537244A1C0E3E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8D5F0D421F937190083222D46A67BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703F95E3320CF43496A28D6CF989CB19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1230BAEAB6D7174DD9E31EFCBBF95474 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2180394890FBCFB148B99C9F59DFCAFA /* SGUIImageExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2180394890FBCFB148B99C9F59DFCAFA /* SGUIImageExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */,
+				C5429C29E0EB84C10C76192B6BE3CF09 /* Pod */,
+				FA654D285843646C7CF614160415FA95 /* Support Files */,
+			);
+			name = SGUIImageExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		21F585B5B04CB9B4A096CF13BEC02CD3 /* Pods-SGUIImageExtension_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F013F506E40A6398F92AD5CDBE23B153 /* Pods-SGUIImageExtension_Example.modulemap */,
+				827F091D7259A0A8C7B94079FC55BC93 /* Pods-SGUIImageExtension_Example-acknowledgements.markdown */,
+				F9BE39E9C480690EDD05311AFF145BEA /* Pods-SGUIImageExtension_Example-acknowledgements.plist */,
+				FB83B9C5A09C0886F74494143CD39DCD /* Pods-SGUIImageExtension_Example-dummy.m */,
+				72DED95EC7124303D969B1BA7BD832E7 /* Pods-SGUIImageExtension_Example-frameworks.sh */,
+				8C9099BEA6E617308EBF85568319BFF8 /* Pods-SGUIImageExtension_Example-Info.plist */,
+				3AA374B9794DAB9164B5855CFD3F160D /* Pods-SGUIImageExtension_Example-umbrella.h */,
+				14415992F005FBADA3B35DB1EC8A8184 /* Pods-SGUIImageExtension_Example.debug.xcconfig */,
+				67C0F841E08598978BA9B81D835DC8C3 /* Pods-SGUIImageExtension_Example.release.xcconfig */,
+			);
+			name = "Pods-SGUIImageExtension_Example";
+			path = "Target Support Files/Pods-SGUIImageExtension_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9C0389ABBE058F1954EF709D5C9487C6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F585B5B04CB9B4A096CF13BEC02CD3 /* Pods-SGUIImageExtension_Example */,
+				E15CACAD66C73A0BDC1FF99B2B78CFE2 /* Pods-SGUIImageExtension_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5429C29E0EB84C10C76192B6BE3CF09 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5AA723B31F093BD0E33781FD91560100 /* LICENSE */,
+				DFB865B8721D451C1C20889E8697BF97 /* README.md */,
+				B2EB3DB0ACD2BD167E3C17E3AEEE66E7 /* SGUIImageExtension.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1230BAEAB6D7174DD9E31EFCBBF95474 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D19F3810014A096C56361BE0E56EF9FB /* Products */,
+				9C0389ABBE058F1954EF709D5C9487C6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D19F3810014A096C56361BE0E56EF9FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07019AEE69C8A237217E120E6168250B /* Pods_SGUIImageExtension_Example.framework */,
+				1657C8BDFE2E3C0E39FE3E7BC096A7E8 /* Pods_SGUIImageExtension_Tests.framework */,
+				04483AE83973CBCF65BAA309B9FC40AD /* SGUIImageExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15CACAD66C73A0BDC1FF99B2B78CFE2 /* Pods-SGUIImageExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				09D4AD5C1ECD801C8489E979C09857F1 /* Pods-SGUIImageExtension_Tests.modulemap */,
+				1AE1C62A04ECE9236414B7B7755E6AAB /* Pods-SGUIImageExtension_Tests-acknowledgements.markdown */,
+				8DB538C12DFD8423750762D176EC280C /* Pods-SGUIImageExtension_Tests-acknowledgements.plist */,
+				7AD91D0EDFE96AA9230FF46FABBCFD63 /* Pods-SGUIImageExtension_Tests-dummy.m */,
+				1D5FA4038D730699BB6DC76530DD9668 /* Pods-SGUIImageExtension_Tests-Info.plist */,
+				6230E87260110DB0AB3706B1D84A650C /* Pods-SGUIImageExtension_Tests-umbrella.h */,
+				889BBC5519746AC8ECB2EDDA57BD4A64 /* Pods-SGUIImageExtension_Tests.debug.xcconfig */,
+				21A757763DEE4DFC0C2591037E27396A /* Pods-SGUIImageExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-SGUIImageExtension_Tests";
+			path = "Target Support Files/Pods-SGUIImageExtension_Tests";
+			sourceTree = "<group>";
+		};
+		FA654D285843646C7CF614160415FA95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6111D5DBF633683399C1498EC5A3F77 /* SGUIImageExtension.modulemap */,
+				96A1F70439B14B3C97BE0D882C3EFB43 /* SGUIImageExtension-dummy.m */,
+				63DA6B6E51DBADD60FB70E95A3D3B5F1 /* SGUIImageExtension-Info.plist */,
+				681FDE80428606D8FFACF3215D8F8B39 /* SGUIImageExtension-prefix.pch */,
+				3AF230D4F27AFB389C80624493FF25DD /* SGUIImageExtension-umbrella.h */,
+				7005CEAF15A256AAC525175F39B9650C /* SGUIImageExtension.debug.xcconfig */,
+				CFBCEDBD93B23A333AA49BEB1269D697 /* SGUIImageExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SGUIImageExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E2F81FDE6815E5392FEF39C68B054C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2253A9594AA3DB5F07470A02B4078C21 /* Pods-SGUIImageExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DC1404E6C7454D33BAC876E3B6BB59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E513B96434DC8A038F2D69E4A4ECEA46 /* SGUIImageExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE371FB37E9711FF59AB5512E1126D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBF3BF7659CAF95B8B360615966390E /* Pods-SGUIImageExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E627F8844832D17371322C72E75F786 /* SGUIImageExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8722A6CDF2B22C068FB67452AC8DFE92 /* Build configuration list for PBXNativeTarget "SGUIImageExtension" */;
+			buildPhases = (
+				81DC1404E6C7454D33BAC876E3B6BB59 /* Headers */,
+				3E224672CB1636AA5AC8C9EE172BBE0D /* Sources */,
+				42833EA15ADE21B7251D4A363E876C98 /* Frameworks */,
+				BD7CEA8A1B176CDC1C735AB7CA572DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGUIImageExtension;
+			productName = SGUIImageExtension;
+			productReference = 04483AE83973CBCF65BAA309B9FC40AD /* SGUIImageExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86DC255B98C10D7CFE12150CE0146C6C /* Pods-SGUIImageExtension_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55A48B3DC8E1A1046A5D085A25C3F0C /* Build configuration list for PBXNativeTarget "Pods-SGUIImageExtension_Example" */;
+			buildPhases = (
+				EEE371FB37E9711FF59AB5512E1126D1 /* Headers */,
+				39DB67579001BBEF3E81BE75CBBE9C74 /* Sources */,
+				32DB0E18495544B72008ACBE6C023A26 /* Frameworks */,
+				539F13799AE5CFA0A77EC8CC72AFD201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72590D075CB75CCFAD5F722615A4AB38 /* PBXTargetDependency */,
+			);
+			name = "Pods-SGUIImageExtension_Example";
+			productName = Pods_SGUIImageExtension_Example;
+			productReference = 07019AEE69C8A237217E120E6168250B /* Pods_SGUIImageExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A450AE5120029968698651B4182DB562 /* Pods-SGUIImageExtension_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBC5440599FE841163F62F4846E2934 /* Build configuration list for PBXNativeTarget "Pods-SGUIImageExtension_Tests" */;
+			buildPhases = (
+				5E2F81FDE6815E5392FEF39C68B054C7 /* Headers */,
+				FA653BF848F79E21412EE38C209389CC /* Sources */,
+				FC8D5F0D421F937190083222D46A67BB /* Frameworks */,
+				D0DE7B76BA54034F8C6887010241F34C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A0DF8772415CC5453B86DBEDC96B171 /* PBXTargetDependency */,
+			);
+			name = "Pods-SGUIImageExtension_Tests";
+			productName = Pods_SGUIImageExtension_Tests;
+			productReference = 1657C8BDFE2E3C0E39FE3E7BC096A7E8 /* Pods_SGUIImageExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D19F3810014A096C56361BE0E56EF9FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86DC255B98C10D7CFE12150CE0146C6C /* Pods-SGUIImageExtension_Example */,
+				A450AE5120029968698651B4182DB562 /* Pods-SGUIImageExtension_Tests */,
+				0E627F8844832D17371322C72E75F786 /* SGUIImageExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		539F13799AE5CFA0A77EC8CC72AFD201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD7CEA8A1B176CDC1C735AB7CA572DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DE7B76BA54034F8C6887010241F34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39DB67579001BBEF3E81BE75CBBE9C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E06DB9DC40AA61E06EE0666EE37C6D /* Pods-SGUIImageExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E224672CB1636AA5AC8C9EE172BBE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F341CD1AC1A2F4B73217AB4BCCF3C8 /* ReplaceMe.swift in Sources */,
+				FAC943DBDAFFE109B1D6125C8F6259D3 /* SGUIImageExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA653BF848F79E21412EE38C209389CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EE9F6C0AE12D43DD5CACD3E78C1F89 /* Pods-SGUIImageExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A0DF8772415CC5453B86DBEDC96B171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SGUIImageExtension_Example";
+			target = 86DC255B98C10D7CFE12150CE0146C6C /* Pods-SGUIImageExtension_Example */;
+			targetProxy = 0D75C01339B6A64429F13F238DFDA865 /* PBXContainerItemProxy */;
+		};
+		72590D075CB75CCFAD5F722615A4AB38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SGUIImageExtension;
+			target = 0E627F8844832D17371322C72E75F786 /* SGUIImageExtension */;
+			targetProxy = B40142132E18D0B0C129669936A991C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1196CFD3C9509C21C838E7E514A68845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889BBC5519746AC8ECB2EDDA57BD4A64 /* Pods-SGUIImageExtension_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGUIImageExtension_Tests/Pods-SGUIImageExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGUIImageExtension_Tests/Pods-SGUIImageExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2203D3D9FC569FAD6C33BD92DDE7F33F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7005CEAF15A256AAC525175F39B9650C /* SGUIImageExtension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGUIImageExtension/SGUIImageExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGUIImageExtension/SGUIImageExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGUIImageExtension/SGUIImageExtension.modulemap";
+				PRODUCT_MODULE_NAME = SGUIImageExtension;
+				PRODUCT_NAME = SGUIImageExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		582D6B7E8BD4411DA8CB0853FCD7F61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBCEDBD93B23A333AA49BEB1269D697 /* SGUIImageExtension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SGUIImageExtension/SGUIImageExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SGUIImageExtension/SGUIImageExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SGUIImageExtension/SGUIImageExtension.modulemap";
+				PRODUCT_MODULE_NAME = SGUIImageExtension;
+				PRODUCT_NAME = SGUIImageExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71FB6EBCAF5B4AB14FE9907E16F04CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C0F841E08598978BA9B81D835DC8C3 /* Pods-SGUIImageExtension_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		781E9B8C895CC899475CAA986F84C98C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14415992F005FBADA3B35DB1EC8A8184 /* Pods-SGUIImageExtension_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF3B6BC53B636C190B198D0BCC88F620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A757763DEE4DFC0C2591037E27396A /* Pods-SGUIImageExtension_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SGUIImageExtension_Tests/Pods-SGUIImageExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SGUIImageExtension_Tests/Pods-SGUIImageExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DBC5440599FE841163F62F4846E2934 /* Build configuration list for PBXNativeTarget "Pods-SGUIImageExtension_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1196CFD3C9509C21C838E7E514A68845 /* Debug */,
+				BF3B6BC53B636C190B198D0BCC88F620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8722A6CDF2B22C068FB67452AC8DFE92 /* Build configuration list for PBXNativeTarget "SGUIImageExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2203D3D9FC569FAD6C33BD92DDE7F33F /* Debug */,
+				582D6B7E8BD4411DA8CB0853FCD7F61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55A48B3DC8E1A1046A5D085A25C3F0C /* Build configuration list for PBXNativeTarget "Pods-SGUIImageExtension_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781E9B8C895CC899475CAA986F84C98C /* Debug */,
+				71FB6EBCAF5B4AB14FE9907E16F04CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

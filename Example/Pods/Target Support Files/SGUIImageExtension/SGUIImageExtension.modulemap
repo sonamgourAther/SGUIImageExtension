@@ -1,0 +1,6 @@
+framework module SGUIImageExtension {
+  umbrella header "SGUIImageExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

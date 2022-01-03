@@ -1,0 +1,16 @@
+PODS:
+  - SGUIImageExtension (0.1.0)
+
+DEPENDENCIES:
+  - SGUIImageExtension (from `../`)
+
+EXTERNAL SOURCES:
+  SGUIImageExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SGUIImageExtension: c779a400cddee4587b15730060cfe75c023495aa
+
+PODFILE CHECKSUM: c8743fc4d83b514c597218ffbe692fdfa2ca8b14
+
+COCOAPODS: 1.11.2
