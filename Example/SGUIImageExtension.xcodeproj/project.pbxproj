@@ -46,7 +46,7 @@
 		8ADE20D7065EF673A4B9CF1B /* Pods-SGUIImageExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGUIImageExtension_Example.release.xcconfig"; path = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		92A2C758FAC4BEDFE9A2F41B /* Pods_SGUIImageExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SGUIImageExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E00C5D46D53B8D3874ED43 /* Pods-SGUIImageExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SGUIImageExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-SGUIImageExtension_Example/Pods-SGUIImageExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E1C0C5929B76C71FA49ED7F3 /* SGUIImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SGUIImageExtension.podspec; path = ../SGUIImageExtension.podspec; sourceTree = "<group>"; };
+		E1C0C5929B76C71FA49ED7F3 /* SGUIImageExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SGUIImageExtension.podspec; path = ../SGUIImageExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2253A9594AA3DB5F07470A02B4078C21 /* Pods-SGUIImageExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6230E87260110DB0AB3706B1D84A650C /* Pods-SGUIImageExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25E06DB9DC40AA61E06EE0666EE37C6D /* Pods-SGUIImageExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB83B9C5A09C0886F74494143CD39DCD /* Pods-SGUIImageExtension_Example-dummy.m */; };
-		60F341CD1AC1A2F4B73217AB4BCCF3C8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */; };
+		60F341CD1AC1A2F4B73217AB4BCCF3C8 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B43C54F798A05CE1F609550E64902 /* UIImageExtension.swift */; };
 		6CBF3BF7659CAF95B8B360615966390E /* Pods-SGUIImageExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA374B9794DAB9164B5855CFD3F160D /* Pods-SGUIImageExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		703F95E3320CF43496A28D6CF989CB19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		78C21F9BF7EF0BC1A8537244A1C0E3E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -47,7 +47,7 @@
 		21A757763DEE4DFC0C2591037E27396A /* Pods-SGUIImageExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SGUIImageExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AA374B9794DAB9164B5855CFD3F160D /* Pods-SGUIImageExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGUIImageExtension_Example-umbrella.h"; sourceTree = "<group>"; };
 		3AF230D4F27AFB389C80624493FF25DD /* SGUIImageExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SGUIImageExtension-umbrella.h"; sourceTree = "<group>"; };
-		3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SGUIImageExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3F7B43C54F798A05CE1F609550E64902 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = SGUIImageExtension/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
 		5AA723B31F093BD0E33781FD91560100 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6230E87260110DB0AB3706B1D84A650C /* Pods-SGUIImageExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SGUIImageExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
 		63DA6B6E51DBADD60FB70E95A3D3B5F1 /* SGUIImageExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SGUIImageExtension-Info.plist"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		2180394890FBCFB148B99C9F59DFCAFA /* SGUIImageExtension */ = {
 			isa = PBXGroup;
 			children = (
-				3F7B43C54F798A05CE1F609550E64902 /* ReplaceMe.swift */,
+				3F7B43C54F798A05CE1F609550E64902 /* UIImageExtension.swift */,
 				C5429C29E0EB84C10C76192B6BE3CF09 /* Pod */,
 				FA654D285843646C7CF614160415FA95 /* Support Files */,
 			);
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60F341CD1AC1A2F4B73217AB4BCCF3C8 /* ReplaceMe.swift in Sources */,
+				60F341CD1AC1A2F4B73217AB4BCCF3C8 /* UIImageExtension.swift in Sources */,
 				FAC943DBDAFFE109B1D6125C8F6259D3 /* SGUIImageExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
